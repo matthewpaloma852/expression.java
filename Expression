@@ -1,0 +1,49 @@
+class Expression{
+    public static void main(String args[]){
+     
+	 int a = 2;
+int b = 5;
+a += (a = b);
+System.out.println("2 + 5 = " + a);
+
+a = 13;
+b = 89;
+a+= (a = b);
+System.out.println("13 + 89 = " + a);
+
+a = 34;
+b = 20;
+a -= (a = b);
+System.out.println("34 + 20 = " + a);
+
+a = 45;
+b = 90;
+a -= (a = b);
+System.out.println("45 - 90 = " + a);
+
+a = 2;
+b = 7;
+a *= (a = b);
+System.out.println("2 * 7 = " + a);
+
+a = 5;
+b = 2;
+a /= (a = b);
+System.out.println("5 / 2 = " + a);
+
+a = 14;
+b = 7;
+a /= (a = b);
+System.out.println("14 / 7 = " + a);
+
+a = 34;
+b = 5;
+a %= (a = b);
+System.out.println("34 % 5 = " + a);
+
+a = 4;
+b = 6;
+a %= (a = b);
+System.out.println("4 % 6 = " + a);
+    }
+}
